@@ -1,0 +1,13 @@
+name: modular
+version: 0.0.31
+author: Will Squire <will_squire@hotmail.co.uk>
+description: A web framework
+homepage: https://twitter.com/WillSquire
+dependencies:
+  args: '>=0.12.1 <0.13.0'
+  browser: '>=0.10.0+2 <0.11.0'
+  caller_info: '>=0.0.8 <0.1.0'
+  http: '>=0.11.1+1 <0.12.0'
+  http_server: '>=0.9.5+1 <0.10.0'
+  route: '>=0.4.6 <0.5.0'
+  yaml: '>=2.1.0 <3.0.0'
