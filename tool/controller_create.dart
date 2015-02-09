@@ -49,9 +49,13 @@ void main(List<String> arguments)
 
 //-------------------------------------------------------------------------------------------
 
-// The args library helps parse arguments input into the console
-// using the options or flags that have been set. If they've been
-// set, map them to the variables here using the callback.
+/**
+ * Menu
+ *
+ * The args library helps parse arguments input into the console
+ * using the options or flags that have been set. If they've been
+ * set, map them to the variables here using the callback.
+ */
 void menu(List<String> arguments)
 {
   ArgParser parser = new ArgParser();
@@ -97,7 +101,9 @@ void menu(List<String> arguments)
 //-------------------------------------------------------------------------------------------
 
 /**
- * Nested function as this needs to be recursive, i.e. if 
+ * Confirm
+ *
+ * Nested function as this needs to be recursive, i.e. if
  * an unknown input is given, it can ask again (recurse)
  */ 
 bool confirm()
@@ -131,6 +137,11 @@ bool confirm()
 
 //-------------------------------------------------------------------------------------------
 
+/**
+ * Create controller
+ *
+ * Creates the controller.
+ */
 void createController()
 {
   String content = """
